@@ -9,7 +9,10 @@
 //3 -> Среда
 //5 -> Пятница
 Console.Clear();
-int numberA = 2, numberB = 10;
+Console.Write("Введите первое число ");
+int numberA = int.Parse(Console.ReadLine());
+Console.Write("Введите второе число ");
+int numberB = int.Parse(Console.ReadLine());
 if (numberA == numberB * numberB)
 {
     Console.WriteLine("Первое число является квадратом второго");
@@ -17,6 +20,6 @@ if (numberA == numberB * numberB)
 
 else
 {
-    Console.Write("неправильно");
+    Console.Write("Первое число НЕ является квадратом второго");
 }
     
