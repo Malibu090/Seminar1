@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 Console.Write("Введите число ");
-int count = 0;
+int count = 2;
 int number = int.Parse(Console.ReadLine());
 if (number > 0)
 {
