@@ -14,8 +14,9 @@ if (number > 0)
 else
 {
     count = number;
-    while (count <=number*(-1))
+    while (count <= number * (-1))
     {
-        
+        Console.Write($" {count}, ");
+        count++;
     }
 }
